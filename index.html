@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парсер таблиц</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>Парсер таблиц и вывод данных</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <h2>Введите URL таблицы</h2>
+            <input type="url" id="table-url" placeholder="Введите URL">
+            <button id="fetch-data">Получить данные</button>
+        </section>
+
+        <section class="table-output">
+            <h2>Обработанная таблица</h2>
+            <div id="table-container">
+                <!--  Здесь будет отображаться таблица -->
+            </div>
+        </section>
+
+        <section class="image-output">
+            <h2>Финальная таблица (картинка)</h2>
+            <div id="image-container">
+                <!--  Здесь будет отображаться картинка -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script> </body>
+</html>
